@@ -1,6 +1,6 @@
 ---
 name: fb-live-to-notes
-description: Chuyển một video/livestream Facebook (hoặc bản chép lời của nó) thành tài liệu tổng hợp học tập bằng tiếng Việt, lưu vào Google Drive. Dùng khi người dùng gửi link video Facebook, link facebook.com/watch, fb.watch, hoặc link Google Doc chứa bản chép lời và muốn có bản tổng hợp, ghi chú học tập, tóm tắt nội dung buổi live.
+description: Chuyển một video/livestream Facebook (hoặc bản chép lời của nó) thành tài liệu tổng hợp học tập bằng tiếng Việt, lưu vào Google Drive; buổi thuộc chuỗi CEO Talk Vinhomes Green Paradise Cần Giờ được thêm thành tab mới trong file chung. Dùng khi người dùng gửi link video Facebook, link facebook.com/watch, fb.watch, hoặc link Google Doc chứa bản chép lời và muốn có bản tổng hợp, ghi chú học tập, tóm tắt nội dung buổi live.
 ---
 
 # Video Facebook → Bản tổng hợp học tập
@@ -51,19 +51,35 @@ Hướng dẫn thủ công (gửi nguyên văn cho người dùng):
 
 ## Bước 3: Viết bản tổng hợp
 
-Tạo Google Doc bằng Google Drive `create_file` với `contentMimeType: text/html` và `parentId` là thư mục ở trên. Tiêu đề: `Ghi chú học tập - <tên buổi/chủ đề>`. Cấu trúc:
+Nội dung gồm các phần sau, theo đúng thứ tự:
 
 1. **Thông tin chung**: tên sự kiện, chủ đề, người dẫn, diễn giả và vai trò, bản chất buổi nói chuyện (đào tạo, bán hàng, chia sẻ...).
 2. **Tóm tắt trong một đoạn**: 5–7 câu.
-3. **Các ý chính theo chủ đề**: chia mục nhỏ, gạch đầu dòng, giữ ví dụ và lập luận của diễn giả.
-4. **Số liệu được nêu**: bảng gồm Nội dung, Số liệu, Ghi chú. Ghi rõ đây là phát biểu, chưa kiểm chứng. Tự kiểm tra phép tính, nếu sai thì ghi chú.
-5. **Bài học áp dụng**: kỹ năng, cách làm có thể dùng ngay (người dùng làm tư vấn bán hàng).
-6. **Góc nhìn phản biện**: lợi ích của người nói, thiên lệch, điều chưa được nói tới.
-7. **Câu hỏi tự kiểm tra**: 5–7 câu.
+3. **Điểm cần lưu ý** (tiêu đề không đánh số, đặt ngay sau tóm tắt): 4–7 gạch đầu dòng về số liệu sai hoặc mâu thuẫn, con số là dự đoán/mục tiêu, ví dụ thiếu ngữ cảnh, phát biểu không có căn cứ không nên dùng khi tư vấn, và lưu ý chung về độ tin cậy của bản chép lời.
+4. **Các ý chính theo chủ đề**: chia mục nhỏ, gạch đầu dòng, giữ ví dụ và lập luận của diễn giả.
+5. **Số liệu được nêu**: bảng gồm Nội dung, Số liệu, Ghi chú kiểm tra. Ghi rõ đây là phát biểu, chưa kiểm chứng. Tự kiểm tra phép tính, nếu sai thì ghi chú.
+6. **Bài học áp dụng**: kỹ năng, cách làm có thể dùng ngay (người dùng làm tư vấn bán hàng).
+7. **Góc nhìn phản biện**: lợi ích của người nói, thiên lệch, điều chưa được nói tới.
+8. **Câu hỏi tự kiểm tra**: 5–7 câu.
 
-Dòng đầu Doc ghi nguồn (link video hoặc tên file chép lời) và ngày biên tập.
+Đánh số tiêu đề các phần chính là 1, 2, 3... trừ "Điểm cần lưu ý". Dòng đầu (chữ nghiêng) ghi nguồn và ngày biên tập. Nếu buổi này nói khác buổi trước cùng chuỗi (ngày, số liệu), ghi vào "Điểm cần lưu ý".
+
+### Lưu vào đâu
+
+**Chuỗi "CEO Talk Vinhomes Green Paradise Cần Giờ"**: thêm một tab mới vào file chung [Ghi chú học tập - CEO Talk Vinhomes Green Paradise Cần Giờ](https://docs.google.com/document/d/1b3egOqmOY2SrFaZNSiDYY9yhhyQlFo1QQGWj3NLA_7k/edit) (ID `1b3egOqmOY2SrFaZNSiDYY9yhhyQlFo1QQGWj3NLA_7k`), tên tab là tên buổi, không tạo file riêng. Cần connector Google Docs; nếu chưa bật thì dừng và nhờ người dùng bật. Trước khi sửa, đọc `references/docs.md` của skill google-workspace.
+
+1. Viết nội dung ra file Markdown trong scratchpad theo cú pháp mà `scripts/md_to_tab.py` hỗ trợ (xem đầu file script). Đặt bảng số liệu ngay sau dòng ghi chú của phần số liệu.
+2. `update_doc` với `addDocumentTab` (`tabProperties.title` = tên buổi, `index` = số tab hiện có) và lấy `tabId` trong phản hồi.
+3. `read_doc` để lấy `revisionId` mới (kết quả lớn được lưu ra file; dùng `jq '.content'` rồi `jq -r .revisionId`, không đọc vào ngữ cảnh).
+4. `python3 scripts/md_to_tab.py notes.md --tab <tabId> --revision <rev> --out req.json`, rồi gửi `requests` và `writeControl` trong `req.json` bằng một lần `update_doc`.
+5. Nếu có bảng: `read_doc` lại, chạy `docs_index.py outline` (skill google-workspace) để tìm đoạn đứng trước bảng, rồi `docs_index.py new-table --at <endIndex - 1> --data rows.json --revision <rev> --tab <tabId> --bold-header` và gửi kết quả. Sau đó `read_doc` lại và trong một lần `update_doc`: xóa đoạn trống ngay sau bảng nếu tiếp theo là tiêu đề, và đặt `italic: false` cho phạm vi bảng (chữ trong bảng bị kế thừa nghiêng từ dòng ghi chú).
+
+Giới hạn đã biết: danh sách đánh số lồng trong danh sách gạch đầu dòng sẽ hiển thị bằng dấu tròn.
+
+**Buổi khác (không thuộc chuỗi trên)**: tạo Google Doc mới bằng Google Drive `create_file` với `contentMimeType: text/html` và `parentId` là thư mục ở trên. Tiêu đề: `Ghi chú học tập - <tên buổi/chủ đề>`.
 
 ## Bước 4: Kiểm tra và báo kết quả
 
-- Gọi `get_file_metadata` (snippetVerbosity: BRIEF) để xác nhận Doc có nội dung.
-- Trả lời người dùng tối đa khoảng 8 dòng: link Doc (gắn vào tên file), cấu trúc các phần, và những điểm không chắc chắn hoặc số liệu bị sai cần lưu ý.
+- File mới: gọi `get_file_metadata` (snippetVerbosity: BRIEF) để xác nhận có nội dung.
+- Tab mới: `read_doc`, chạy `docs_index.py outline` trên tab đó, kiểm tra thứ tự tiêu đề, gạch đầu dòng và bảng.
+- Trả lời người dùng tối đa khoảng 8 dòng: link file (gắn vào tên file), tên tab nếu có, các phần chính, và những điểm cần lưu ý quan trọng nhất.
