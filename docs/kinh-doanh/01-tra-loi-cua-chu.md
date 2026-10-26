@@ -24,6 +24,10 @@ Cộng đồng khoảng 5.000 người là cộng đồng **Mentor Master WIT**.
 - Mục tiêu **50 triệu đồng/tháng là thu nhập ròng**.
 - Điểm đang kẹt: dữ liệu ở nhiều nơi; làm việc với Claude Code trên 3 môi trường (cloud ở công ty, máy tính ở nhà, điện thoại khi đi lại) mà chưa liền mạch. Muốn hệ thống hóa dữ liệu của mình trước.
 - Chưa biết ở bước nào thì quay màn hình làm bài giảng hoặc chia sẻ mạng xã hội.
+- Chưa có website riêng, chưa có kênh mạng xã hội cho HaiBrain.
+- Thiết bị: một máy Windows (dùng chính) và một máy Mac.
+- **Quan hệ với tổ chức:** Chủ vừa phụng sự vừa là học viên của cộng đồng Mentor Master (EWIT). Người phụ trách tin tưởng, giao quản trị Zoom, điểm danh học viên qua báo cáo Zoom, xây đội IT để tiến tới làm website và kênh cho tổ chức.
+- **Ý tưởng mới:** sau khi xong bộ não thứ 2 cá nhân, hỗ trợ EWIT xây bộ não thứ 2 cho tổ chức (dữ liệu cộng đồng đang manh mún, chưa có kho chung), vừa làm hình mẫu vừa xây hình ảnh bản thân.
 
 ## 5. Kết quả của học viên
 - Nhận thức rõ tầm quan trọng của AI.
