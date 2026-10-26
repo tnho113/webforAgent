@@ -1,6 +1,8 @@
 # Đề xuất thí điểm "Bộ não thứ 2 cho EWIT"
 
-_Ngày: 2026-10-26 · Người soạn: Trưởng phòng Chiến lược OPC & Coaching · Gửi: CEO → Chủ · Trạng thái: bản nháp, chưa chốt_
+_Ngày: 2026-10-26 · Người soạn: Trưởng phòng Chiến lược OPC & Coaching · Phản biện và chỉnh sửa: CEO · Gửi: Chủ · Trạng thái: bản đã phản biện, chờ Chủ duyệt_
+
+> **Các chỉnh sửa của CEO sau phản biện:** (1) thêm "Bản nói 5 phút" vì quan hệ thân thiết nên nói chuyện trước, văn bản sau; (2) thêm phương án C để người phụ trách tự chọn mảng; (3) nêu rõ công cụ dự kiến và cảnh báo không dùng chung mật khẩu tài khoản cá nhân; (4) rút thước đo từ 5 xuống 3, nêu cách đo; (5) bỏ đề nghị "giới thiệu HaiBrain qua kênh chính thức" khỏi văn bản ban đầu, chuyển sang sau tuần 4 (mục 2.2b); (6) thêm ghi chú thực tế về thời gian (mục 2.2c).
 
 Ký hiệu: **[SỰ THẬT]** có nguồn (lời Chủ, tài liệu trong repo) · **[SUY LUẬN]** rút ra từ sự thật · **[GIẢ ĐỊNH]** chưa kiểm chứng · **[Chủ điền: ...]** chỗ cần Chủ bổ sung, không được đoán.
 
@@ -19,6 +21,16 @@ Ký hiệu: **[SỰ THẬT]** có nguồn (lời Chủ, tài liệu trong repo) 
 # PHẦN 1. BẢN TRÌNH NGƯỜI PHỤ TRÁCH
 
 > Phần này viết để Chủ gửi hoặc trình bày. Xưng hô tạm dùng "em" và "anh/chị". [Chủ điền: xưng hô và tên người phụ trách]. Nên trình bày trực tiếp 15 phút trước, gửi văn bản sau.
+
+## Bản nói 5 phút (dùng khi gặp trực tiếp, trước khi gửi văn bản)
+
+1. **Hỏi:** "Anh/chị có thấy đội mình hay mất thời gian tìm lại tài liệu, video, câu trả lời cũ không? Mảng nào tốn thời gian nhất?"
+2. **Kể ngắn:** "Em đang tự xây một kho tri thức cá nhân có AI hỗ trợ, tìm lại thông tin rất nhanh." (mở cho xem trên điện thoại nếu đã có)
+3. **Đề xuất:** "Em xin thử 4 tuần cho đúng một mảng anh/chị chọn, trên tài khoản của tổ chức, không đụng dữ liệu cá nhân học viên. Tuần 4 em báo kết quả đo được, anh/chị quyết dừng hay tiếp."
+4. **Minh bạch:** "Em cũng đang chuẩn bị một dự án cá nhân tên HaiBrain về chủ đề này. Mọi thứ làm cho EWIT thuộc về EWIT. Nếu anh/chị đồng ý, em xin kể lại kinh nghiệm dưới dạng ẩn danh."
+5. **Hỏi lại:** "Anh/chị thấy có nên thử không, và nếu thử thì mảng nào?"
+
+Văn bản dưới đây chỉ gửi **sau** buổi nói chuyện, để xác nhận lại.
 
 ## Đề xuất thí điểm nhỏ: Kho tri thức chung cho EWIT
 
@@ -45,7 +57,11 @@ Em không đề xuất làm ngay cho cả tổ chức. Em xin thử trước ở
 | Phạm vi thử | [Chủ điền: số buổi học, ví dụ các buổi trong 1–2 tháng gần nhất của một lớp] | [Chủ điền: khoảng bao nhiêu câu hỏi, lấy từ đâu] |
 | Phù hợp khi | Tổ chức muốn giữ lại và tận dụng kho bài giảng | Đội ngũ đang mất nhiều thời gian trả lời lặp lại |
 
+_Phương án C: một mảng khác do anh/chị chọn, nếu anh/chị thấy mảng đó đang tốn thời gian hơn._
+
 _Phương án dự phòng: chuẩn hóa cách lưu báo cáo điểm danh Zoom bằng bảng tính. Phương án này **không dùng AI**, vì báo cáo có tên và email học viên._
+
+**Công cụ dự kiến** (chốt ở tuần 1, sau khi em kiểm tra chính sách dữ liệu và báo anh/chị): Google Drive làm kho chung; trợ lý AI hỏi đáp trên tài liệu có dẫn nguồn, ví dụ NotebookLM hoặc Gemini của Google, hoặc Claude [Chủ điền: chọn sau khi kiểm tra]. Ưu tiên công cụ chạy trên **tài khoản của tổ chức** và có cam kết rõ về việc không dùng dữ liệu để huấn luyện. Nếu tổ chức chưa có Google Workspace, em sẽ đề xuất cách tạo tài khoản phù hợp, **không dùng chung mật khẩu một tài khoản cá nhân**.
 
 ### 3. Lợi ích cho tổ chức
 
@@ -73,13 +89,13 @@ Thời gian em dành cho thí điểm: khoảng [Chủ điền: số giờ/tuầ
 
 Đo trước (tuần 1) và sau (tuần 4) trên cùng một bộ câu hỏi thật do đội ngũ đưa ra:
 
-| Thước đo | Mục tiêu đề xuất (sẽ chốt sau khi đo hiện trạng) |
-|---|---|
-| Thời gian tìm một thông tin cũ | Từ [đo ở tuần 1] xuống dưới 2 phút |
-| Trợ lý AI trả lời đúng và có dẫn nguồn (người đồng hành chấm) | Đạt từ 16/20 câu trở lên |
-| Số người trong đội ngũ còn dùng ở tuần 4 | Từ [Chủ điền]/[Chủ điền] người trở lên, mỗi người dùng ít nhất 3 lần/tuần |
-| Riêng phương án A | 100% buổi học trong phạm vi có tóm tắt và nằm đúng chỗ |
-| Riêng phương án B | Số câu hỏi lặp lại phải chuyển lên người phụ trách giảm rõ rệt [mức cụ thể chốt ở tuần 1] |
+Chỉ dùng **3 thước đo**, để việc đo không thành gánh nặng:
+
+| Thước đo | Cách đo | Mục tiêu đề xuất (chốt sau khi đo hiện trạng) |
+|---|---|---|
+| Thời gian tìm một thông tin cũ | Bấm giờ 5 câu hỏi mẫu, tuần 1 và tuần 4 | Từ [đo ở tuần 1] xuống dưới 2 phút |
+| Trợ lý AI trả lời đúng và có dẫn nguồn | Người đồng hành chấm bộ 20 câu hỏi thật | Đạt từ 16/20 câu trở lên |
+| Đội ngũ còn dùng ở tuần 4 | Hỏi nhanh từng người (tự báo cáo) | Từ [Chủ điền]/[Chủ điền] người trở lên còn dùng hằng tuần |
 
 Nếu đến tuần 4 không đạt, em sẽ báo cáo thẳng và đề xuất dừng. Như vậy tổ chức không mất thêm thời gian.
 
@@ -102,7 +118,7 @@ Em muốn minh bạch để anh/chị yên tâm:
 4. **Chia sẻ kinh nghiệm:** em đang chuẩn bị một dự án cá nhân tên **HaiBrain**, hướng dẫn mọi người tự xây "bộ não thứ 2" bằng AI. Em xin phép:
    - (a) kể lại thí điểm dưới dạng câu chuyện **đã ẩn danh**, không nêu dữ liệu nội bộ, và chỉ dùng sau khi anh/chị đọc và đồng ý;
    - (b) dùng lại **mẫu cấu trúc trống** (cách sắp xếp thư mục, cách đặt câu hỏi cho AI), không kèm dữ liệu của EWIT.
-5. **Giới thiệu HaiBrain:** nếu anh/chị thấy thí điểm có ích, em xin được tổ chức giới thiệu một buổi chia sẻ miễn phí về chủ đề này qua kênh chính thức [Chủ điền: tháng 12]. Em **không** dùng danh sách hay email học viên cho việc riêng khi chưa được anh/chị cho phép. Nếu anh/chị chưa muốn, thí điểm vẫn tiến hành bình thường.
+5. **Dữ liệu học viên:** em **không** dùng danh sách hay email học viên cho bất kỳ việc riêng nào khi chưa được anh/chị cho phép. Nếu anh/chị từ chối mục 4, thí điểm vẫn tiến hành bình thường.
 
 ### 8. Đề nghị bước tiếp theo
 
@@ -136,6 +152,17 @@ Theo thứ tự ưu tiên **[SUY LUẬN]**:
 - **Nói về HaiBrain ngay trong buổi đầu**, đừng để người phụ trách tự phát hiện sau. Minh bạch là cách bảo vệ lòng tin, cũng là tài sản lớn nhất của Chủ.
 - **Đưa ra lựa chọn, không đưa ra yêu cầu**: A, B hay dự phòng; dừng, tiếp hay mở rộng. Người phụ trách giữ quyền quyết định.
 - **Thời điểm:** sau khi bộ não cá nhân Cấp 1–2 đã chạy (khoảng 9–13/11). Nếu được, mang theo ảnh chụp bộ não của chính mình làm ví dụ.
+
+## 2.2b. Khi nào xin giới thiệu buổi Zoom HaiBrain qua kênh chính thức
+
+**Không đưa vào văn bản đề xuất ban đầu.** Chỉ đề nghị **sau báo cáo tuần 4**, khi tổ chức đã thấy giá trị. Câu gợi ý: "Nếu anh/chị thấy kết quả có ích, em xin phép làm một buổi chia sẻ miễn phí cho cộng đồng về cách tự xây kho tri thức cá nhân. Anh/chị có muốn tổ chức giới thiệu không?"
+
+Vì sao: xin giới thiệu ngay từ đầu dễ khiến thí điểm trông như một cuộc trao đổi lợi ích. Xin sau khi đã cho đi giá trị thì tự nhiên và thuyết phục hơn nhiều.
+
+## 2.2c. Thực tế về thời gian
+
+- Bộ não cá nhân **không cần hoàn hảo** trước 15/11. Chỉ cần đủ để mở cho người phụ trách xem 1–2 ví dụ thật.
+- Phương án B tốn thời gian ẩn ở bước **xóa tên, thông tin cá nhân** khỏi câu hỏi lấy từ nhóm chat. Nên giới hạn khoảng 30–50 câu ở đợt đầu.
 
 ## 2.3. Những điều KHÔNG nên hứa
 
@@ -183,7 +210,7 @@ Phương án A dễ làm hơn về mặt kỹ thuật nếu video chỉ có gi�
 
 ## Rủi ro và giả định
 
-**Rủi ro lớn nhất [SUY LUẬN]:** người phụ trách hiểu thí điểm là "dùng tổ chức để quảng bá việc riêng". Khi đó Chủ mất cả lòng tin lẫn con đường chính danh. Giảm rủi ro bằng cách minh bạch về HaiBrain từ đầu, để mục 7.4–7.5 là **tùy chọn**, và lợi ích tổ chức không phụ thuộc vào câu trả lời của người phụ trách cho các mục đó.
+**Rủi ro lớn nhất [SUY LUẬN]:** người phụ trách hiểu thí điểm là "dùng tổ chức để quảng bá việc riêng". Khi đó Chủ mất cả lòng tin lẫn con đường chính danh. Giảm rủi ro bằng cách minh bạch về HaiBrain từ đầu, để mục 7.4 là **tùy chọn**, chỉ xin giới thiệu buổi Zoom sau tuần 4 (mục 2.2b), và lợi ích tổ chức không phụ thuộc vào câu trả lời của người phụ trách cho các mục đó.
 
 **Rủi ro khác:**
 - Thí điểm chiếm thời gian tháng 11–12, đúng lúc phải chuẩn bị Zoom và bán lớp founding (xem báo cáo trước).
