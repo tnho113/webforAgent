@@ -18,7 +18,12 @@ Khách đầu tiên là vợ của Chủ: môi giới bất động sản, kinh 
 - **Tầm nhìn thương hiệu:** cộng đồng **"HaiBrain"**, giúp khoảng **1 triệu người** biết thiết lập, xây dựng và nuôi dưỡng bộ não thứ 2 của chính họ, để phát huy tối đa hiệu suất khi dùng AI trong công việc và cuộc sống.
 
 ## 4. Người theo dõi và kênh
-(Chưa trả lời. Đã biết từ câu 3: cộng đồng khoảng 5.000 người.)
+Cộng đồng khoảng 5.000 người là cộng đồng **Mentor Master WIT**. Chủ có địa chỉ email của họ. (Chưa rõ: vai trò của Chủ trong cộng đồng, quyền gửi email giới thiệu sản phẩm.)
+
+## Bổ sung (2026-10-26)
+- Mục tiêu **50 triệu đồng/tháng là thu nhập ròng**.
+- Điểm đang kẹt: dữ liệu ở nhiều nơi; làm việc với Claude Code trên 3 môi trường (cloud ở công ty, máy tính ở nhà, điện thoại khi đi lại) mà chưa liền mạch. Muốn hệ thống hóa dữ liệu của mình trước.
+- Chưa biết ở bước nào thì quay màn hình làm bài giảng hoặc chia sẻ mạng xã hội.
 
 ## 5. Kết quả của học viên
 - Nhận thức rõ tầm quan trọng của AI.
