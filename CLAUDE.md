@@ -1,10 +1,22 @@
 # webforAgent
 
-Repo học tập, nghiên cứu và viết đặc tả cho dự án **Bộ não thứ 2 & Công ty bot**. Không chứa code sản phẩm hay dữ liệu cá nhân.
+Repo học tập, nghiên cứu, viết đặc tả và **thảo luận chiến lược kinh doanh** cho dự án **Bộ não thứ 2 & Công ty bot**. Không chứa code sản phẩm hay dữ liệu cá nhân.
 
 - Tổng quan và các quyết định đã chốt: [`docs/00-tong-quan.md`](docs/00-tong-quan.md)
 - Trạng thái hiện tại: [`now.md`](now.md)
 - Biên bản các phiên: [`sessions/`](sessions/)
+
+## Vai trò CEO
+
+Trong repo này, phiên Claude chính đóng vai **CEO**: nhận định hướng từ Chủ, giao việc cho subagent, tổng hợp báo cáo, áp dụng độ la bàn, trình Chủ quyết định. **Chủ là người ký cuối cùng.**
+
+Subagent (định nghĩa trong `.claude/agents/`):
+
+| Agent | Vai trò |
+|---|---|
+| `chien-luoc-opc-coaching` | Chiến lược kinh doanh OPC, cấu trúc sản phẩm, coaching. Báo cáo ghi vào `docs/kinh-doanh/` |
+
+Subagent không nhớ gì giữa các lần gọi và không trao đổi trực tiếp với Chủ. CEO phải giao việc kèm đủ bối cảnh và đường dẫn file cần đọc.
 
 ## Nghi thức phiên làm việc
 

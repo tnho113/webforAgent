@@ -65,6 +65,7 @@
 | 12 | Bài học của bot | Bot soạn bài học dạng nháp; Chủ duyệt một lượt mỗi tuần |
 | 13 | Bối cảnh xuyên suốt | Làm việc với bộ não qua Claude Code hoặc bot; chat claude.ai thường không tự đọc repo |
 | 14 | Bổ sung từ bài "3 tháng làm OPC" | `journey/`, kiểm tra kết quả thật, khung 3 tầng, nhập liệu bằng tin thoại, thiết kế dạng template |
+| 15 | Vai trò CEO | Trong `webforAgent`, phiên Claude chính là CEO, điều phối subagent. Subagent đầu tiên: `chien-luoc-opc-coaching` |
 
 ## 5. Còn mở
 
@@ -76,7 +77,8 @@
 | 4 | Vault Obsidian hiện tại nằm trong thư mục Drive hay thư mục thường? | Giai đoạn 1 |
 | 5 | Nhà cung cấp API: Anthropic (đang giả định, chưa xác nhận) | Giai đoạn 2 |
 | 6 | Quy tắc chat riêng (5 tình huống) và số tầng quản lý của công ty bot | Giai đoạn công ty bot |
-| 7 | Chiến lược kinh doanh và coaching | Chat riêng "Chiến lược OPC & Coaching" |
+| 7 | Chiến lược kinh doanh và coaching: Chủ trả lời 10 câu hỏi trong `docs/kinh-doanh/00-y-tuong-kinh-doanh.md` | Trước khi subagent chiến lược phân tích |
+| 8 | Có thêm subagent "Nghiên cứu thị trường" và "Phản biện" không? | Sau khi subagent chiến lược chạy lần đầu |
 
 ## 6. Lộ trình
 
