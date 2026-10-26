@@ -61,7 +61,7 @@ _Phương án C: một mảng khác do anh/chị chọn, nếu anh/chị thấy 
 
 _Phương án dự phòng: chuẩn hóa cách lưu báo cáo điểm danh Zoom bằng bảng tính. Phương án này **không dùng AI**, vì báo cáo có tên và email học viên._
 
-**Công cụ dự kiến** (chốt ở tuần 1, sau khi em kiểm tra chính sách dữ liệu và báo anh/chị): Google Drive làm kho chung; trợ lý AI hỏi đáp trên tài liệu có dẫn nguồn, ví dụ NotebookLM hoặc Gemini của Google, hoặc Claude [Chủ điền: chọn sau khi kiểm tra]. Ưu tiên công cụ chạy trên **tài khoản của tổ chức** và có cam kết rõ về việc không dùng dữ liệu để huấn luyện. Nếu tổ chức chưa có Google Workspace, em sẽ đề xuất cách tạo tài khoản phù hợp, **không dùng chung mật khẩu một tài khoản cá nhân**.
+**Công cụ dự kiến:** hệ sinh thái Google theo định hướng của tổ chức. **Google Workspace** của tổ chức làm kho chung (Drive dùng chung); **Gemini** và **NotebookLM** làm trợ lý hỏi đáp trên tài liệu, có dẫn nguồn. Đội ngũ không cần cài đặt hay viết code. Tài khoản Workspace **đứng tên tổ chức**, em làm quản trị viên; mỗi người có tài khoản riêng, **không dùng chung mật khẩu**. Em sẽ kiểm tra lại chính sách dữ liệu của gói Workspace được chọn và báo anh/chị trước khi đưa tài liệu vào.
 
 ### 3. Lợi ích cho tổ chức
 
@@ -113,7 +113,7 @@ Nếu đến tuần 4 không đạt, em sẽ báo cáo thẳng và đề xuất 
 Em muốn minh bạch để anh/chị yên tâm:
 
 1. **Vai trò:** em làm với vai trò [Chủ điền: phụng sự / thành viên đội IT], báo cáo trực tiếp cho anh/chị. Người đồng hành: [Chủ điền].
-2. **Thù lao:** [Chủ điền: em xin làm phụng sự trong thí điểm / hoặc đề xuất mức hỗ trợ]. Nếu mở rộng sau thí điểm, xin được trao đổi lại.
+2. **Thù lao:** em xin làm **phụng sự** trong thí điểm. Tổ chức hỗ trợ **chi phí công cụ và AI** cần thiết (gói Google Workspace, chi phí sử dụng AI nếu có), thanh toán hoặc xuất hóa đơn **đứng tên tổ chức**; em gửi bảng chi phí dự kiến trước khi mua. Nếu mở rộng sau thí điểm, xin được trao đổi lại.
 3. **Quyền sở hữu:** mọi thứ xây cho EWIT, gồm kho, nội dung, cấu trúc đã điền dữ liệu và tài khoản, **thuộc về tổ chức**.
 4. **Chia sẻ kinh nghiệm:** em đang chuẩn bị một dự án cá nhân tên **HaiBrain**, hướng dẫn mọi người tự xây "bộ não thứ 2" bằng AI. Em xin phép:
    - (a) kể lại thí điểm dưới dạng câu chuyện **đã ẩn danh**, không nêu dữ liệu nội bộ, và chỉ dùng sau khi anh/chị đọc và đồng ý;
@@ -163,6 +163,8 @@ Vì sao: xin giới thiệu ngay từ đầu dễ khiến thí điểm trông nh
 
 - Bộ não cá nhân **không cần hoàn hảo** trước 15/11. Chỉ cần đủ để mở cho người phụ trách xem 1–2 ví dụ thật.
 - Phương án B tốn thời gian ẩn ở bước **xóa tên, thông tin cá nhân** khỏi câu hỏi lấy từ nhóm chat. Nên giới hạn khoảng 30–50 câu ở đợt đầu.
+- Chủ dành khoảng **10 giờ/tuần cho IT của EWIT**, nằm trong 30 giờ/tuần. Thí điểm (4–6 giờ/tuần) nên **thuộc quỹ 10 giờ IT này**, vì đây là việc của tổ chức, không lấy vào thời gian xây HaiBrain.
+- Thí điểm chạy trên **hệ sinh thái Google** (Workspace, Gemini, NotebookLM), không phải Claude Code. Chủ cần dành thời gian làm quen các công cụ này. Đây cũng là cơ hội: khách hàng HaiBrain Cấp 1 rất có thể dùng đúng các công cụ đó.
 
 ## 2.3. Những điều KHÔNG nên hứa
 

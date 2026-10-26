@@ -27,6 +27,9 @@ Cộng đồng khoảng 5.000 người là cộng đồng **Mentor Master WIT**.
 - Chưa có website riêng, chưa có kênh mạng xã hội cho HaiBrain.
 - Thiết bị: một máy Windows (dùng chính) và một máy Mac.
 - **Quan hệ với tổ chức:** Chủ vừa phụng sự vừa là học viên của cộng đồng Mentor Master (EWIT). Người phụ trách tin tưởng, giao quản trị Zoom, điểm danh học viên qua báo cáo Zoom, xây đội IT để tiến tới làm website và kênh cho tổ chức.
+- Công việc IT cho EWIT khoảng **10 giờ/tuần**, nằm trong 30 giờ/tuần.
+- Thí điểm EWIT: **phụng sự**, nhưng cần tổ chức hỗ trợ chi phí token AI và công cụ.
+- EWIT yêu cầu Chủ mua **Google Workspace** để lưu dữ liệu, muốn dùng hệ sinh thái Google (Gemini, Antigravity…) để xây bộ não thứ 2; tổ chức không quen dùng Claude Code.
 - **Ý tưởng mới:** sau khi xong bộ não thứ 2 cá nhân, hỗ trợ EWIT xây bộ não thứ 2 cho tổ chức (dữ liệu cộng đồng đang manh mún, chưa có kho chung), vừa làm hình mẫu vừa xây hình ảnh bản thân.
 
 ## 5. Kết quả của học viên

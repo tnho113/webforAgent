@@ -27,6 +27,7 @@ Subagent không nhớ gì giữa các lần gọi và không trao đổi trực 
 2. Viết biên bản `sessions/YYYY-MM-DD-<chu-de>.md`: đã làm, quyết định, còn dở.
 3. Nếu có quyết định mới hoặc thay đổi, cập nhật `docs/00-tong-quan.md`.
 4. Commit và push.
+5. **Gộp vào nhánh `main`** (tạo Pull Request rồi gộp), để phiên tiếp theo ở bất kỳ thiết bị nào cũng thấy đủ bối cảnh. Nhánh `main` là nguồn sự thật duy nhất.
 
 ## Quy ước
 - Viết bằng tiếng Việt.
