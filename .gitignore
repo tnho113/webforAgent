@@ -1,0 +1,6 @@
+# Cài đặt riêng của Obsidian trên từng máy
+.obsidian/
+
+# File hệ thống
+.DS_Store
+Thumbs.db
