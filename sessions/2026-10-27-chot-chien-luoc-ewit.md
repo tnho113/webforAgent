@@ -6,6 +6,9 @@
 - Chỉnh [đề xuất thí điểm EWIT](../docs/kinh-doanh/2026-10-26-de-xuat-thi-diem-ewit.md) theo thực tế Chủ cung cấp: Workspace EWIT chỉ 1 người dùng (quản lý tài liệu chung); đội ngũ EF dùng Gmail cá nhân; thành viên phụng sự tùy tâm nên không cấp tài khoản riêng. Sửa mục 2, 3, 6, 2.4; thêm mục 2.2d (hệ quả, cách lùi nếu NotebookLM không chia sẻ được cho Gmail cá nhân).
 - Chủ hỏi: có thể dùng bot để cộng sự EF hỏi đáp từ wiki chung không? CEO trả lời: làm được (NotebookLM chia sẻ link; bot trong nhóm chat Telegram/Zalo; Google Chat app), nhưng **không đưa vào thí điểm 4 tuần**. Đề xuất: thí điểm dùng NotebookLM; sau tuần 4, nếu cần, làm bot nhóm chat thành dự án riêng, bot thuộc về tổ chức, kiểm tra chính sách dữ liệu của API.
 
+- Gộp vào `main` bằng fast-forward (máy chưa có `gh`). Sau đó Chủ cài GitHub CLI 2.103.3 (`C:\Program Files\GitHub CLI\gh.exe`), **chưa đăng nhập** (`gh auth login`). Cửa sổ PowerShell mở trước khi cài không nhận lệnh `gh`: mở cửa sổ mới hoặc gọi bằng đường dẫn đầy đủ.
+- CEO đề xuất công cụ: connector Google sẵn có (Drive, Docs, Sheets, Calendar, họp trực tuyến) đủ cho 90 ngày; cân nhắc Gmail khi bán lớp founding. Plugin nên cài: **Obsidian Notes** (kiểm tra liên kết, frontmatter); Productivity và github là tùy chọn. VS Code và Telegram Desktop để khi làm Luồng B.
+
 ## Quyết định
 - Quyết định 16–20 (Chủ xác nhận): bán Cấp 1–2 trước; bỏ hoa hồng nhiều tầng; bán trước tháng 12; kỹ thuật ≤ 10 giờ/tuần; template trước, bot sau.
 

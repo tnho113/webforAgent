@@ -21,6 +21,7 @@ _Cập nhật: 2026-10-27_
 4. Quay video "trước": sự lộn xộn của dữ liệu hiện tại, trước khi sắp xếp.
 5. Giữ chỗ tên thương hiệu HaiBrain (tên miền, trang mạng xã hội).
 6. Tìm luật sư tư vấn trước khi mở giới thiệu hưởng hoa hồng một tầng.
+7. Đăng nhập GitHub CLI (`gh auth login`, đã cài nhưng chưa đăng nhập) để gộp vào `main` qua Pull Request. Cài plugin Obsidian Notes nếu muốn.
 
 **Cam kết đã hứa:** khi bắt đầu làm sản phẩm, hướng dẫn Chủ khởi tạo repo hệ thống và repo dữ liệu từng bước. Hướng dẫn cài đặt trên máy Mac.
 
