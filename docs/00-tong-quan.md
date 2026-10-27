@@ -1,6 +1,6 @@
 # Tổng quan: Bộ não thứ 2 & Công ty bot
 
-> Tài liệu nền tảng, tổng hợp các thảo luận và quyết định đến ngày 2026-10-26.
+> Tài liệu nền tảng, tổng hợp các thảo luận và quyết định đến ngày 2026-10-27.
 > Đây là phần mở đầu của đặc tả (Giai đoạn 0). Mọi thay đổi quyết định cần cập nhật tại đây.
 
 ## 1. Tầm nhìn
@@ -66,6 +66,11 @@
 | 13 | Bối cảnh xuyên suốt | Làm việc với bộ não qua Claude Code hoặc bot; chat claude.ai thường không tự đọc repo |
 | 14 | Bổ sung từ bài "3 tháng làm OPC" | `journey/`, kiểm tra kết quả thật, khung 3 tầng, nhập liệu bằng tin thoại, thiết kế dạng template |
 | 15 | Vai trò CEO | Trong `webforAgent`, phiên Claude chính là CEO, điều phối subagent. Subagent đầu tiên: `chien-luoc-opc-coaching` |
+| 16 | Sản phẩm bán đầu tiên (chốt 2026-10-27) | Bán Cấp 1 (không code, dùng trên điện thoại) và Cấp 2 (Obsidian liên kết) trước. Bot (Cấp 3) và công ty bot tạm hoãn đến khi có doanh thu |
+| 17 | Không hoa hồng nhiều tầng (chốt 2026-10-27) | Bỏ "founder hưởng hoa hồng". Thay bằng nhóm founder không hoa hồng; sau đó giới thiệu một tầng và trợ giảng được trả công. Hỏi luật sư trước khi chi bất kỳ khoản hoa hồng nào |
+| 18 | Mốc bán (chốt 2026-10-27) | Mở bán trước lớp founding trong tháng 12/2026, chạy lớp trước Tết (tháng 1/2027) |
+| 19 | Giới hạn kỹ thuật (chốt 2026-10-27) | Trong 90 ngày tới, việc kỹ thuật tối đa 10 giờ/tuần; ưu tiên phỏng vấn, Zoom, bán |
+| 20 | Đảo lộ trình (chốt 2026-10-27) | Template trước, bot sau. Tách hai luồng: sản phẩm bán (ưu tiên) và phòng thí nghiệm kỹ thuật |
 
 ## 5. Còn mở
 
@@ -79,8 +84,22 @@
 | 6 | Quy tắc chat riêng (5 tình huống) và số tầng quản lý của công ty bot | Giai đoạn công ty bot |
 | 7 | Chiến lược kinh doanh và coaching: Chủ trả lời 10 câu hỏi trong `docs/kinh-doanh/00-y-tuong-kinh-doanh.md` | Trước khi subagent chiến lược phân tích |
 | 8 | Có thêm subagent "Nghiên cứu thị trường" và "Phản biện" không? | Sau khi subagent chiến lược chạy lần đầu |
+| 9 | Chọn luật sư và chi phí tư vấn về giới thiệu hưởng hoa hồng | Trước khi mở giới thiệu một tầng |
 
 ## 6. Lộ trình
+
+Theo quyết định 16–20, lộ trình tách **hai luồng chạy song song**:
+
+**Luồng A: Sản phẩm bán (ưu tiên trong 90 ngày)**
+
+| Thời gian | Nội dung | Thế nào là xong |
+|---|---|---|
+| Tháng 11/2026 | Dựng Cấp 1–2 cho chính Chủ và vợ (khách số 0); phỏng vấn, khảo sát; đóng gói template | Vợ Chủ đạt 4/5 tiêu chí Cấp 1; ≥ 10 phỏng vấn; ≥ 150 phiếu khảo sát |
+| Tháng 12/2026 | 2 buổi Zoom, mở bán trước lớp founding (tối đa 20 chỗ) | Có học viên đặt cọc hoặc trả đủ |
+| Tháng 1/2027 | Chạy lớp founding 21 ngày, trước Tết | ≥ 70% học viên đạt kết quả Cấp 1; ≥ 5 lời chứng thực có số liệu |
+| Sau Tết | Mở lớp 2 | Theo kết quả lớp founding |
+
+**Luồng B: Phòng thí nghiệm kỹ thuật (tối đa 10 giờ/tuần)**: các giai đoạn dưới đây, làm chậm lại; GĐ 6+ (công ty bot) tạm hoãn đến khi có doanh thu.
 
 | GĐ | Nội dung | Thế nào là xong |
 |---|---|---|
@@ -90,8 +109,9 @@
 | 3 | Hỏi đáp và cố vấn, có dẫn nguồn, có chế độ phản biện | ≥ 80% câu trả lời đúng và có nguồn trên bộ câu hỏi thử |
 | 4 | Ôn tập theo lặp lại ngắt quãng | Nhận câu ôn đúng lịch mỗi ngày |
 | 5 | Nhật ký quyết định và `journey/` | ≥ 20 quyết định đúng mẫu; cột mốc hành trình đầu tiên |
-| 6+ | Công ty bot: CEO, nhân viên, QA, độ la bàn, chat riêng | Đặc tả riêng khi đến lúc |
-| Sau đó | Khuôn mẫu hóa cho coaching | Một người khác cài đặt được theo hướng dẫn |
+| 6+ | Công ty bot: CEO, nhân viên, QA, độ la bàn, chat riêng (**tạm hoãn đến khi có doanh thu**) | Đặc tả riêng khi đến lúc |
+
+Khuôn mẫu hóa cho coaching không còn là bước cuối: Cấp 1–2 được đóng gói thành template ngay trong Luồng A.
 
 Chỉ tiêu là đề xuất ban đầu, điều chỉnh khi duyệt đặc tả.
 

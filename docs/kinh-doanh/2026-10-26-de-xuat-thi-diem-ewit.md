@@ -2,7 +2,7 @@
 
 _Ngày: 2026-10-26 · Người soạn: Trưởng phòng Chiến lược OPC & Coaching · Phản biện và chỉnh sửa: CEO · Gửi: Chủ · Trạng thái: bản đã phản biện, chờ Chủ duyệt_
 
-> **Các chỉnh sửa của CEO sau phản biện:** (1) thêm "Bản nói 5 phút" vì quan hệ thân thiết nên nói chuyện trước, văn bản sau; (2) thêm phương án C để người phụ trách tự chọn mảng; (3) nêu rõ công cụ dự kiến và cảnh báo không dùng chung mật khẩu tài khoản cá nhân; (4) rút thước đo từ 5 xuống 3, nêu cách đo; (5) bỏ đề nghị "giới thiệu HaiBrain qua kênh chính thức" khỏi văn bản ban đầu, chuyển sang sau tuần 4 (mục 2.2b); (6) thêm ghi chú thực tế về thời gian (mục 2.2c).
+> **Các chỉnh sửa của CEO sau phản biện:** (1) thêm "Bản nói 5 phút" vì quan hệ thân thiết nên nói chuyện trước, văn bản sau; (2) thêm phương án C để người phụ trách tự chọn mảng; (3) nêu rõ công cụ dự kiến và cảnh báo không dùng chung mật khẩu tài khoản cá nhân; (4) rút thước đo từ 5 xuống 3, nêu cách đo; (5) bỏ đề nghị "giới thiệu HaiBrain qua kênh chính thức" khỏi văn bản ban đầu, chuyển sang sau tuần 4 (mục 2.2b); (6) thêm ghi chú thực tế về thời gian (mục 2.2c); (7) 2026-10-27, theo thực tế Chủ cung cấp: Workspace chỉ 1 người dùng, đội ngũ dùng Gmail cá nhân, không mua thêm tài khoản (mục 2, 6 và 2.2d).
 
 Ký hiệu: **[SỰ THẬT]** có nguồn (lời Chủ, tài liệu trong repo) · **[SUY LUẬN]** rút ra từ sự thật · **[GIẢ ĐỊNH]** chưa kiểm chứng · **[Chủ điền: ...]** chỗ cần Chủ bổ sung, không được đoán.
 
@@ -61,7 +61,7 @@ _Phương án C: một mảng khác do anh/chị chọn, nếu anh/chị thấy 
 
 _Phương án dự phòng: chuẩn hóa cách lưu báo cáo điểm danh Zoom bằng bảng tính. Phương án này **không dùng AI**, vì báo cáo có tên và email học viên._
 
-**Công cụ dự kiến:** hệ sinh thái Google theo định hướng của tổ chức. **Google Workspace** của tổ chức làm kho chung (Drive dùng chung); **Gemini** và **NotebookLM** làm trợ lý hỏi đáp trên tài liệu, có dẫn nguồn. Đội ngũ không cần cài đặt hay viết code. Tài khoản Workspace **đứng tên tổ chức**, em làm quản trị viên; mỗi người có tài khoản riêng, **không dùng chung mật khẩu**. Em sẽ kiểm tra lại chính sách dữ liệu của gói Workspace được chọn và báo anh/chị trước khi đưa tài liệu vào.
+**Công cụ dự kiến:** hệ sinh thái Google theo định hướng của tổ chức, **không mua thêm tài khoản**. Kho chung đặt trên **tài khoản Google Workspace hiện có của tổ chức** (1 người dùng, đang dùng để quản lý tài liệu chung). Đội ngũ vẫn dùng **Gmail cá nhân** như hiện nay; thư mục kho được **chia sẻ** cho Gmail của từng người, mặc định chỉ xem. **NotebookLM** (và Gemini nếu cần) chạy trên tài khoản tổ chức để làm trợ lý hỏi đáp có dẫn nguồn. Đội ngũ không cần cài đặt hay viết code. Mật khẩu tài khoản tổ chức **không phát cho cả đội**; mọi người truy cập qua chia sẻ. Trước khi đưa tài liệu vào, em sẽ kiểm tra hai điều và báo anh/chị: chính sách dữ liệu của gói Workspace hiện có, và việc chia sẻ trợ lý hỏi đáp cho Gmail cá nhân có làm được không.
 
 ### 3. Lợi ích cho tổ chức
 
@@ -69,7 +69,7 @@ _Phương án dự phòng: chuẩn hóa cách lưu báo cáo điểm danh Zoom b
 - Tri thức của tổ chức được giữ lại một chỗ, không phụ thuộc vào máy hay tài khoản của một người.
 - Thành viên mới làm quen công việc nhanh hơn.
 - Là bước chuẩn bị cho website và các kênh của tổ chức sau này, vì nội dung đã được sắp xếp sẵn.
-- Chi phí thấp: dùng Google Drive và công cụ có sẵn, không cần viết phần mềm. [Chủ điền: tổ chức đã có tài khoản Google Workspace hay chưa]
+- Chi phí thấp: dùng tài khoản Google Workspace sẵn có của tổ chức và Gmail cá nhân của đội ngũ, không mua thêm tài khoản, không cần viết phần mềm.
 
 ### 4. Cách làm và thời gian
 
@@ -102,8 +102,9 @@ Nếu đến tuần 4 không đạt, em sẽ báo cáo thẳng và đề xuất 
 ### 6. Rủi ro và cách bảo vệ dữ liệu học viên
 
 - **Không đưa dữ liệu cá nhân của học viên vào trợ lý AI**: họ tên kèm liên hệ, email, số điện thoại, thông tin thanh toán, hoàn cảnh riêng. Các câu hỏi đưa vào sổ hỏi đáp sẽ được xóa tên người hỏi.
-- **Tài khoản thuộc tổ chức:** kho và trợ lý AI đặt trên tài khoản của tổ chức, không đặt trên tài khoản cá nhân của em.
-- **Ai được truy cập:** chỉ những người anh/chị duyệt [Chủ điền: danh sách]. Mặc định chỉ được xem; quyền sửa giới hạn ở em và người đồng hành.
+- **Tài khoản thuộc tổ chức:** kho và trợ lý AI đặt trên tài khoản Workspace của tổ chức, không đặt trên tài khoản cá nhân của em hay của thành viên.
+- **Ai được truy cập:** chỉ những Gmail anh/chị duyệt [Chủ điền: danh sách], chia sẻ đích danh từng người, không bật "ai có đường liên kết cũng xem được". Mặc định chỉ được xem; quyền sửa giới hạn ở em và người đồng hành. Khi có người rời đội ngũ, chỉ cần gỡ chia sẻ.
+- **Không đưa tài liệu nội bộ vào AI trên tài khoản cá nhân:** đội ngũ hỏi qua trợ lý chạy trên tài khoản tổ chức, không tải tài liệu của tổ chức lên Gemini hay NotebookLM bằng Gmail cá nhân.
 - Trước khi dùng, em sẽ kiểm tra chính sách dữ liệu của công cụ AI và báo lại anh/chị. Nếu cần ý kiến chuyên gia về bảo vệ dữ liệu cá nhân, em sẽ nêu rõ để anh/chị quyết định.
 - **Trợ lý AI có thể trả lời sai.** Vì vậy AI luôn kèm nguồn, chỉ đội ngũ dùng, chưa trả lời học viên trực tiếp.
 - Kết thúc thí điểm, nếu anh/chị quyết định dừng, em sẽ bàn giao hoặc xóa theo yêu cầu.
@@ -166,6 +167,19 @@ Vì sao: xin giới thiệu ngay từ đầu dễ khiến thí điểm trông nh
 - Chủ dành khoảng **10 giờ/tuần cho IT của EWIT**, nằm trong 30 giờ/tuần. Thí điểm (4–6 giờ/tuần) nên **thuộc quỹ 10 giờ IT này**, vì đây là việc của tổ chức, không lấy vào thời gian xây HaiBrain.
 - Thí điểm chạy trên **hệ sinh thái Google** (Workspace, Gemini, NotebookLM), không phải Claude Code. Chủ cần dành thời gian làm quen các công cụ này. Đây cũng là cơ hội: khách hàng HaiBrain Cấp 1 rất có thể dùng đúng các công cụ đó.
 
+## 2.2d. Thực tế tài khoản: 1 người dùng Workspace, đội ngũ dùng Gmail cá nhân
+
+**[SỰ THẬT, lời Chủ 2026-10-27]** Google Workspace của EWIT chỉ có 1 người dùng, để quản lý tài liệu chung. Đội ngũ EF chủ yếu dùng Gmail cá nhân. Thành viên phụng sự tùy tâm nên không cấp tài khoản riêng cho từng người, vì chi phí lớn.
+
+Hệ quả cho thí điểm:
+- **Chia sẻ Drive cho Gmail cá nhân:** làm được, là cách đang dùng **[SUY LUẬN]**. Cần kiểm tra quản trị viên có cho phép chia sẻ ra ngoài tên miền không.
+- **Chia sẻ sổ NotebookLM cho Gmail cá nhân:** **[GIẢ ĐỊNH, phải thử trước khi hứa]**. Bản NotebookLM trong Workspace có thể giới hạn chia sẻ trong nội bộ tổ chức. Thử ở tuần 1 với 1 Gmail cá nhân. Nếu không được, có ba cách lùi:
+  1. Người đồng hành hoặc Chủ hỏi giúp trên tài khoản tổ chức, gửi lại câu trả lời kèm nguồn (chậm hơn, phù hợp phương án B quy mô nhỏ).
+  2. Chỉ dùng phần kho Drive có cấu trúc và bản tóm tắt, chưa dùng trợ lý AI. Khi đó thước đo "trả lời đúng có nguồn" chỉ chấm trên tài khoản tổ chức.
+  3. Dùng NotebookLM bản cá nhân trên một Gmail riêng của tổ chức. **Không khuyến nghị**: chính sách dữ liệu của tài khoản cá nhân khác Workspace, phải kiểm tra trước.
+- **Rủi ro chính:** thành viên tự tải tài liệu nội bộ lên Gemini hoặc NotebookLM bằng Gmail cá nhân để tiện hỏi. Cần nói rõ ngay buổi đầu (đã đưa vào mục 6).
+- **Thước đo "còn dùng ở tuần 4"** vẫn đo được, vì Drive cho biết ai đã xem tệp; kết hợp hỏi nhanh từng người.
+
 ## 2.3. Những điều KHÔNG nên hứa
 
 - "Xây bộ não cho cả tổ chức." Chỉ một mảng, 4 tuần.
@@ -182,7 +196,7 @@ Vì sao: xin giới thiệu ngay từ đầu dễ khiến thí điểm trông nh
 |---|---|
 | "Em làm vậy để kiếm tiền riêng à?" | Thẳng thắn: "Em có dự án HaiBrain. Thí điểm cho EWIT là việc em làm vì tổ chức, mọi thứ thuộc về tổ chức. Em chỉ xin phép kể lại đã ẩn danh nếu anh/chị đồng ý. Anh/chị từ chối phần này thì em vẫn làm thí điểm." |
 | "Dữ liệu học viên có bị lộ không?" | "Dữ liệu cá nhân học viên không đưa vào AI. Kho đặt trên tài khoản tổ chức, anh/chị duyệt danh sách người được xem. Em sẽ kiểm tra chính sách dữ liệu của công cụ trước và báo lại." |
-| "Có tốn tiền không?" | "Thí điểm dùng công cụ sẵn có, dự kiến không phát sinh chi phí [Chủ điền: xác nhận sau khi chọn công cụ]. Nếu cần trả phí, em sẽ báo trước để anh/chị quyết." |
+| "Có tốn tiền không?" | "Thí điểm dùng tài khoản Workspace sẵn có của tổ chức, không mua thêm tài khoản cho ai. Mọi người vẫn dùng Gmail cá nhân. Nếu cần trả phí cho tính năng AI, em sẽ báo trước để anh/chị quyết." |
 | "Em đi rồi thì ai lo?" | "Em làm hướng dẫn ngắn và đào tạo người đồng hành. Mọi thứ nằm trên tài khoản tổ chức, không phụ thuộc vào em." |
 | "Sao không làm luôn cho cả tổ chức?" | "Thử nhỏ để biết cách nào hợp với đội mình trước. Nếu không hiệu quả thì tổ chức chỉ mất 4 tuần của một mảng." |
 | "Đội mình không rành công nghệ." | "Vì vậy em chọn Google Drive và trợ lý hỏi bằng tiếng Việt, không cần cài hay viết gì. Tuần 4 đo xem mọi người có còn dùng không. Nếu không dùng thì đó là kết quả để mình biết." |
@@ -222,7 +236,7 @@ Phương án A dễ làm hơn về mặt kỹ thuật nếu video chỉ có gi�
 
 **Giả định đã dùng:**
 1. Người phụ trách cởi mở với AI và có thời gian nghe đề xuất trong tháng 11.
-2. Tổ chức có hoặc có thể tạo tài khoản Google dùng chung; chưa biết có Google Workspace hay không.
+2. ~~Tổ chức có hoặc có thể tạo tài khoản Google dùng chung~~ → **[SỰ THẬT]** tổ chức có Google Workspace 1 người dùng; đội ngũ dùng Gmail cá nhân (xem 2.2d). Còn giả định: chia sẻ được NotebookLM cho Gmail cá nhân.
 3. Có ít nhất một mảng (bài học hoặc câu hỏi thường gặp) đủ tài liệu để thử, và có thể tách khỏi dữ liệu cá nhân học viên.
 4. Đội ngũ có ít nhất 3–5 người để đo "còn dùng ở tuần 4" [Chủ điền].
 5. Thí điểm cần khoảng 4–6 giờ/tuần của Chủ, chủ yếu không phải viết code.
@@ -238,6 +252,6 @@ Phương án A dễ làm hơn về mặt kỹ thuật nếu video chỉ có gi�
 
 1. Công việc IT ở EWIT (Zoom, điểm danh) có nằm **trong** 30 giờ/tuần không? Thí điểm sẽ lấy giờ từ quỹ nào?
 2. Chủ muốn làm thí điểm **phụng sự (không công)** hay đề xuất **mức hỗ trợ**? Điều này ảnh hưởng đến cách viết mục 7.2.
-3. Tổ chức đang lưu tài liệu, video, câu hỏi ở đâu, quy mô khoảng bao nhiêu? Có tài khoản Google Workspace chung không?
+3. Tổ chức đang lưu tài liệu, video, câu hỏi ở đâu, quy mô khoảng bao nhiêu? (Đã trả lời phần tài khoản: Workspace 1 người dùng, đội ngũ dùng Gmail cá nhân.) Ai đang giữ tài khoản Workspace đó, và Chủ có quyền quản trị không?
 4. Chủ có sẵn sàng **nói rõ về HaiBrain** với người phụ trách ngay buổi đầu không?
 5. Chủ chọn lịch Zoom nào: Zoom #1 khoảng 5/12 không có bằng chứng EWIT, hay dồn một buổi duy nhất vào khoảng 19–20/12 có bằng chứng EWIT?
